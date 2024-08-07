@@ -7,6 +7,7 @@ import { useAppContext } from './contexts/appContext';
 import HamburgerSVG from './icons/svgs/HamburgerSVG';
 import { PublicationLogo } from './publication-logo';
 import PublicationSidebar from './sidebar';
+import { IconPaidreUnpadded } from "../assets/icon-paidre-unpadded";
 
 function hasUrl(
 	navbarItem: PublicationNavbarItem,
@@ -77,34 +78,22 @@ export const Header = () => {
 	);
 
 	return (
-		<header className="border-b bg-slate-950 py-10 dark:border-neutral-800 dark:bg-neutral-900">
-			<Container className="grid grid-cols-4 gap-5 px-5">
-				<div className="col-span-2 flex flex-1 flex-row items-center gap-2 lg:col-span-1">
-					<div className="lg:hidden">
-						<Button
-							type="outline"
-							label=""
-							icon={<HamburgerSVG className="h-5 w-5 stroke-current" />}
-							className="rounded-xl border-transparent !px-3 !py-2 text-white hover:bg-slate-900 dark:hover:bg-neutral-800"
-							onClick={toggleSidebar}
-						/>
+		<header className="">
+		<div className="flex h-[84px] bg-white w-full items-center md:h-[96px] ">
+        <div className="mx-auto mt-0 flex w-full max-w-screen-xl items-center justify-between px-4">
 
-						{isSidebarVisible && (
-							<PublicationSidebar navbarItems={navbarItems} toggleSidebar={toggleSidebar} />
-						)}
-					</div>
-					<div className="hidden lg:block">
-						<PublicationLogo />
-					</div>
-				</div>
-				<div className="col-span-2 flex flex-row items-center justify-end gap-5 text-slate-300 lg:col-span-3">
-					<nav className="hidden lg:block">{navList}</nav>
-					<Button href={baseUrl} as="a" type="primary" label="Book a demo" />
-				</div>
-			</Container>
-			<div className="mt-5 flex justify-center lg:hidden">
-				<PublicationLogo />
-			</div>
+            <span className="flex items-center justify-start text-[24px] font-black">
+              <IconPaidreUnpadded className="w-10 mr-2 md:mr-4" />
+              Paidre
+            </span>
+
+
+          <div className="flex md:items-start items-center space-x-4 h-12">
+          
+          
+          </div>
+        </div>
+      </div>
 		</header>
 	);
 };
