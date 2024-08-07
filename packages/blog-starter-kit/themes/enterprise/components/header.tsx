@@ -82,11 +82,12 @@ export const Header = () => {
 		<div className="flex h-[84px] bg-white w-full items-center md:h-[96px] ">
         <div className="mx-auto mt-0 flex w-full max-w-screen-xl items-center justify-between px-4">
 
+<a href="/">
             <span className="flex items-center justify-start text-[24px] font-black">
               <IconPaidreUnpadded className="w-10 mr-2 md:mr-4" />
               Paidre
             </span>
-
+            </a>
 
           <div className="flex md:items-start items-center space-x-4 h-12">
           
