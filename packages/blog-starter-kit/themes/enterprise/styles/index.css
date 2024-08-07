@@ -46,3 +46,48 @@
     background-color: transparent;
     color: #ddd;
 }
+
+@layer base {
+    h1 {
+      @apply text-[40px] font-[800] text-[#222] md:text-[44px] md:leading-relaxed;
+    }
+    h2 {
+      @apply text-[36px] font-[700] text-[#222] md:text-[40px] md:leading-relaxed;
+    }
+    h3 {
+      @apply text-[28px] font-[600] text-[#222] md:text-[32px] md:leading-relaxed;
+    }
+    h4 {
+      @apply text-[20px] font-[500] text-[#222] md:text-[20px] md:leading-relaxed;
+    }
+    h5 {
+      @apply text-[18px] font-[500] text-[#222] md:text-[18px] md:leading-relaxed;
+    }
+    h6 {
+      @apply text-[16px] font-[500] text-[#222] md:leading-relaxed;
+    }
+    p {
+      @apply text-[16px] font-[400] text-[#222] md:leading-loose;
+    }
+    small {
+      @apply text-[12px] font-[400] text-[#555] md:leading-relaxed;
+    }
+  
+    Link {
+      @apply text-[#222];
+    }
+  
+    a {
+      @apply text-[#222];
+    }
+  
+    /* div {
+      @apply text-[#222];
+    }
+  
+    span {
+      @apply text-[#222];
+    } */
+  
+    /* ... */
+  }
