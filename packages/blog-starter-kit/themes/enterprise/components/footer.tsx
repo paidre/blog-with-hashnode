@@ -30,27 +30,11 @@ export const Footer = () => {
 				{/* <div className="my-4 text-[#888] text-[16px] max-w-[300px]">Accounts Receivable & Credit Control platform for aging debts</div> */}
 				<p className="my-4 text-[#888] text-[14px] max-w-[300px]">The late payment platform for creditors to manage aging debtors over the internet.</p>
 	
-				{/* <p className="my-4 text-[#555] text-[16px] max-w-[300px]">Helping anyone to deal with late payments quickly using the internet.</p> */}
-	
-				{/* <img onClick={() => window.open('https://startup.google.com/cloud/')}
-				  className="hover:cursor-pointer my-10 max-h-18 bg-[#fff] rounded-xl border border-[#ddd] p-4" src="/google-for-startups.svg"
-				  alt="Google for Startups badge"
-				/> */}
-				{/* <div className="my-10 flex flex-wrap">
-				  <div className="border border-[#ddd] mr-4 mb-4 text-[14px] w-fit rounded-lg flex p-2 items-center justify-center whitespace-nowrap">Singapore</div>
-				  <div className="border border-[#ddd] mr-4 mb-4 text-[14px] w-fit rounded-lg flex p-2 items-center justify-center whitespace-nowrap">United States</div>
-				  <div className="border border-[#ddd] mr-4 mb-4 text-[14px] w-fit rounded-lg flex p-2 items-center justify-center whitespace-nowrap">Australia</div>
-				  <div className="border border-[#ddd] mr-4 mb-4 text-[14px] w-fit rounded-lg flex p-2 items-center justify-center whitespace-nowrap">New Zealand</div>
-				  <div className="border border-[#ddd] mr-4 mb-4 text-[14px]  w-fit rounded-lg flex p-2 items-center justify-center whitespace-nowrap">Hong Kong</div>
-	
-				</div> */}
+				
 	
 				<div className="my-10"></div>
-				{/* <div className="">
-				  <span className="font-black">Paidre</span><br />
-				  21 Collyer Quay<br />
-				  Singapore 049320
-				</div> */}
+			
+			
 			  </div>
 			  <div className="mb-[16px] grid auto-rows-min gap-4">
 				<h6 className="font-[600] mt-4">Product</h6>
