@@ -19,16 +19,16 @@ export const Footer = () => {
       <div className="mx-auto my-auto w-full max-w-screen-xl items-center justify-between px-4">
         <div className="mb-10 grid gap-10 md:grid-cols-6">
           <div className="my-4 grid auto-rows-min gap-4 col-span-2">
-            {/*<a className="hover:text-[#0fa0fa] text-[#555]" href="/" >
+            {/*<div className="hover:text-[#0fa0fa] text-[#555]" href="/" >
 				  <IconPaidreUnpadded className="w-[88px] md:w-[88px]" />
 				</Link> */}
 
-           <a href={`${windowOrigin}/`} >
+           <div onClick={()=>window.open(`${windowOrigin}/`)} >
               <span className="flex items-center justify-start text-[24px] font-black">
                 <IconPaidreUnpadded className="w-10 mr-2 md:mr-4" />
                 Paidre
               </span>
-           </a>
+           </div>
             {/* <div className="my-4 text-[#888] text-[16px] md:text-[14px] max-w-[300px]">Resolve late payments online, before lawyers or collectors.</div> */}
             {/* <div className="my-4 text-[#888] text-[16px] max-w-[300px]">Accounts Receivable & Credit Control platform for aging debts</div> */}
             <p className="my-4 text-[#888] text-[16px] max-w-[300px]">Late payment platform for creditors to manage aging debtors on the internet.</p>
@@ -37,53 +37,53 @@ export const Footer = () => {
           </div>
           <div className="mb-[16px] grid auto-rows-min gap-4">
             <h6 className="font-[600] mt-4">Product</h6>
-           <a className="hover:text-[#0fa0fa] text-[#555]" href={`${windowOrigin}/`} target="_blank" >
+           <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${windowOrigin}/`)} >
               Submit a claim
-           </a>
-           <a className="hover:text-[#0fa0fa] text-[#555]" href={`${windowOrigin}/`} >
+           </div>
+           <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${windowOrigin}/`)} >
               Bulk claims upload
-           </a>
+           </div>
             <h6 className="font-[600] mt-4">Cases</h6>
-           <a className="hover:text-[#0fa0fa] text-[#555]" href={`${windowOrigin}/`} >
+           <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${windowOrigin}/`)} >
               Overdue invoices
-           </a>
-           <a className="hover:text-[#0fa0fa] text-[#555]" href={`${windowOrigin}/`} >
+           </div>
+           <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${windowOrigin}/`)} >
               Default on loans
-           </a>
-           <a className="hover:text-[#0fa0fa] text-[#555]" href={`${windowOrigin}/`} >
+           </div>
+           <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${windowOrigin}/`)} >
               Outstanding salaries
-           </a>
-           <a className="hover:text-[#0fa0fa] text-[#555]" href={`${windowOrigin}/`} >
+           </div>
+           <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${windowOrigin}/`)} >
               Unprocessed refunds
-           </a>
+           </div>
           </div>
           <div className="mb-[16px] grid auto-rows-min gap-4">
             <h6 className="font-[600] mt-4">Solutions</h6>
 
-           <a className="hover:text-[#0fa0fa] text-[#555]" href="/" target="_blank" >
+           <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${windowOrigin}/`)} >
               Business debtors
-           </a>
-           <a className="hover:text-[#0fa0fa] text-[#555]" href="/" target="_blank" >
+           </div>
+           <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${windowOrigin}/`)} >
               Individual debtors
-           </a>
-           <a className="hover:text-[#0fa0fa] text-[#555]" href="/" target="_blank" >
+           </div>
+           <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${windowOrigin}/`)} >
               Business creditors
-           </a>
-           <a className="hover:text-[#0fa0fa] text-[#555]" href="/" target="_blank" >
+           </div>
+           <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${windowOrigin}/`)} >
               Individual creditors
-           </a>
+           </div>
           </div>
           <div className="mb-[16px] grid auto-rows-min gap-4">
             <h6 className="font-[600] mt-4">Company</h6>
-           <a className="hover:text-[#0fa0fa] text-[#555]" href={`${windowOrigin}/about-us`} target="_blank" >
+           <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${windowOrigin}/about-us`)} >
               About us
-           </a>
-           <a className="hover:text-[#0fa0fa] text-[#555]" href={`${windowOrigin}/contact-us`} target="_blank" rel="nofollow">
+           </div>
+           <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${windowOrigin}/contact-us`)}>
               Contact us
-           </a>
-           <a className="hover:text-[#0fa0fa] text-[#555]" href={`${windowOrigin}/blog`} target="_blank" rel="nofollow">
+           </div>
+           <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${windowOrigin}/blog`)}>
               Blog
-           </a>
+           </div>
 
            <a className="hover:text-[#0fa0fa] text-[#555]" href="https://linkedin.com/company/paidre" target="_blank" rel="nofollow">
               LinkedIn
@@ -97,20 +97,14 @@ export const Footer = () => {
           </div>
           <div className="mb-[16px] grid auto-rows-min gap-4">
             <h6 className="font-[600] mt-4">Legal</h6>
-           <a className="hover:text-[#0fa0fa] text-[#555]" href={`${windowOrigin}/privacy-policy`} target="_blank" rel="nofollow" >
+           {/* <a className="hover:text-[#0fa0fa] text-[#555]" href={`${windowOrigin}/privacy-policy`} target="_blank" rel="nofollow" >
               Privacy policy	
            </a>
            <a className="hover:text-[#0fa0fa] text-[#555]" href={`${windowOrigin}/terms-of-use`} target="_blank" rel="nofollow" >
               Terms of use
-           </a>
-            {/*<a className="hover:text-[#0fa0fa] text-[#555]"
-				  href="/community-guidelines"
-				  target="_blank"
-				  rel="nofollow"
-				  
-				>
-				  Community Guidelines
-				</Link> */}
+           </a> */}
+          
+		  
           </div>
         </div>
 
