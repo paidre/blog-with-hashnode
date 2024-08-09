@@ -6,12 +6,13 @@ import { useEffect, useState } from "react";
 export const Footer = () => {
   const currentTime = new Date();
   const year = currentTime.getFullYear();
-  const [windowOrigin, setWindowOrigin] = useState("");
+  const [windowOrigin, setWindowOrigin] = useState('');
 
 
+  useEffect(() => {
     typeof window !== undefined && setWindowOrigin(window?.location?.origin);
+  }, []);
 
-	
   // console.log("apple",window?.location.origin)
   return (
     <footer className="flex bg-gradient-to-r from-[#f8f8f8] to-white border-t border-[#ddd] w-full bg-[#fff] pt-20 pb-[16px]">
