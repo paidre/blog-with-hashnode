@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 export const Footer = () => {
   const currentTime = new Date();
   const year = currentTime.getFullYear();
-  const [windowOrigin, setWindowOrigin] = useState('');
+  const [windowOrigin, setWindowOrigin] = useState('/');
 
 
   useEffect(() => {
