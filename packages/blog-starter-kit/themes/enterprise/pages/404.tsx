@@ -94,12 +94,12 @@ export default function Index({ publication, initialAllPosts, initialPageInfo }:
         <h1>Page not found</h1>
         <p className="text-[#555]">
           Do you think this is unintended?{" "}
-          <a
+          <span
             className="font-medium"
-            href="/contact-us"
+			onClick={()=>window.open(`${window?.location?.origin}/contact-us`)}
           >
             Let us help
-          </a>
+          </span>
         </p>
         <button
           onClick={() => router.push("/")}

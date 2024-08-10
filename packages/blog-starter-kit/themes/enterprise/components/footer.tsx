@@ -78,9 +78,9 @@ export const Footer = () => {
            <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${window?.location?.origin}/about-us`)} >
               About us
            </div>
-           {/* <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${window?.location?.origin}/contact-us`)}>
+           <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${window?.location?.origin}/contact-us`)}>
               Contact us
-           </div> */}
+           </div>
            <div className="hover:text-[#0fa0fa] text-[#555]" onClick={()=>window.open(`${window?.location?.origin}/blog`)}>
               Blog
            </div>
