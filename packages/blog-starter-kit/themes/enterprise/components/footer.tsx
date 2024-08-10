@@ -85,7 +85,7 @@ export const Footer = () => {
               Blog
            </div>
 
-           <a className="hover:text-[#0fa0fa] text-[#555]" href="https://linkedin.com/company/paidre" target="_blank" rel="nofollow">
+           {/* <a className="hover:text-[#0fa0fa] text-[#555]" href="https://linkedin.com/company/paidre" target="_blank" rel="nofollow">
               LinkedIn
            </a>
            <a className="hover:text-[#0fa0fa] text-[#555]" href="https://facebook.com/paidredotcom" target="_blank" rel="nofollow">
@@ -93,7 +93,7 @@ export const Footer = () => {
            </a>
            <a className="hover:text-[#0fa0fa] text-[#555]" href="https://paidre.betteruptime.com" target="_blank" rel="nofollow">
               System status
-           </a>
+           </a> */}
           </div>
           <div className="mb-[16px] grid auto-rows-min gap-4">
             <h6 className="font-[600] mt-4">Legal</h6>
