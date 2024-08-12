@@ -73,7 +73,7 @@ export const Footer = () => {
             <a className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`https://linkedin.com/company/paidre`)} target="_blank" rel="nofollow">
               LinkedIn
             </a>
-            <a className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`https://facebook.com/paidredotcom`)} target="_blank" rel="nofollow">
+            <a className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`https://facebook.com/getpaidre`)} target="_blank" rel="nofollow">
               Facebook
             </a>
             <a className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`https://paidre.betteruptime.com`)} target="_blank" rel="nofollow">
