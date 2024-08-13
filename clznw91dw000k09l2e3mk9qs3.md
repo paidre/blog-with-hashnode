@@ -1,7 +1,7 @@
 ---
 title: "IOUs: What They Are and How to Make Them Legitimate"
 seoTitle: "What is an IOU? How to Create a Legitimate IOU Agreement"
-seoDescription: "Learn what an IOU is, its components, and how to create a legitimate IOU agreement for personal or business use. Get a free IOU template and understand how "
+seoDescription: "Learn what an IOU is, its components, and how to create a legitimate IOU agreement for personal or business use. Get a free IOU template and understand how"
 datePublished: Mon Apr 29 2024 16:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clznw91dw000k09l2e3mk9qs3
 slug: ious-what-they-are-and-how-to-make-them-legitimate
