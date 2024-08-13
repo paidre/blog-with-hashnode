@@ -47,7 +47,7 @@ export default function Post({ publication, post }: Props) {
 	return (
 		<AppProvider publication={publication}>
 			<Layout>
-				<Header />
+
 				<Container className="pt-10">
 					<article className="flex flex-col items-start gap-10 pb-10">
 						<Head>
@@ -68,7 +68,7 @@ export default function Post({ publication, post }: Props) {
 						</div>
 					</article>
 				</Container>
-				<Footer />
+
 			</Layout>
 		</AppProvider>
 	);
