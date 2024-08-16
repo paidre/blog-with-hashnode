@@ -90,6 +90,8 @@ const Post = ({ publication, post }: PostProps) => {
 		})();
 	}, []);
 
+	console.log("post.features.tableOfContents.isEnabled",post.features.tableOfContents)
+
 	return (
 		<>
 			<Head>
