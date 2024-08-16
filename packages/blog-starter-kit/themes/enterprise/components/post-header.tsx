@@ -10,6 +10,8 @@ import { useAppContext } from './contexts/appContext';
 import { twJoin } from 'tailwind-merge';
 import { useState } from 'react';
 import ProfileImage from './profile-image';
+import Head from 'next/head';
+
 
 type Author = Pick<User, 'username' | 'name' | 'profilePicture'>;
 
@@ -32,6 +34,8 @@ export const PostHeader = ({ title, coverImage, date, author, readTimeInMinutes 
 	const openCoAuthorModal = () => {
 		setIsCoAuthorModalVisible(true);
 	};
+
+
 	return (
 		<>
 			<PostTitle>{title}</PostTitle>
@@ -63,9 +67,10 @@ export const PostHeader = ({ title, coverImage, date, author, readTimeInMinutes 
 					)}
 					{!post.coAuthors?.length && (
 						<a
-						href={`${typeof window !=="undefined" && window?.location?.origin}/about-us`}
-						// href={`https://hashnode.com/@${post.author.username}`}
-						className="ml-2 font-semibold text-slate-600 dark:text-white md:ml-0"
+						href={`https://paidre.com/about-us`}
+																		// href={`https://hashnode.com/@${post.author.username}`}
+						className="ml-2 font-semibold text-slate-600 dark:text-white md:ml-0 cursor-pointer"
+						target="_blank" rel="noopener noreferrer"
 						>
 						<span>{post.author.name}</span>
 						</a>

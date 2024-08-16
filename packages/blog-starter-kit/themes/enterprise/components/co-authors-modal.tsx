@@ -20,9 +20,11 @@ const AuthorCard = ({ author }: { author: PostFullFragment['author']; }) => {
       >
         <div className="flex flex-wrap items-center overflow-hidden">
           <a 
-				href={`${typeof window !=="undefined" && window?.location?.origin}/about-us`}
-        // href={`https://hashnode.com/@${author.username}`} 
-          title={author.name} className="mr-2 w-8">
+				              href={`https://paidre.com/about-us`}
+                      // href={`https://hashnode.com/@${author.username}`} 
+          title={author.name} className="mr-2 w-8"
+          target="_blank" rel="noopener noreferrer"
+          >
             <ResizableImage
               src={author.profilePicture || DEFAULT_AVATAR}
               resize={{ w: 200, h: 200, c: 'face' }}
@@ -31,10 +33,11 @@ const AuthorCard = ({ author }: { author: PostFullFragment['author']; }) => {
           </a>
           <div className="flex flex-row items-center text-clip">
             <a
-				href={`${typeof window !=="undefined" && window?.location?.origin}/about-us`}
-        // href={`https://hashnode.com/@${author.username}`}
+				              href={`https://paidre.com/about-us`}
+                      // href={`https://hashnode.com/@${author.username}`}
               title={author.name}
               className="truncate font-sans text-sm font-medium text-slate-700 dark:text-slate-200"
+              target="_blank" rel="noopener noreferrer"
             >
               {author.name}
             </a>

@@ -13,7 +13,7 @@ export const Avatar = ({ username, name, picture, size }: Props) => {
 		<div className="flex items-center gap-2">
 			<a
 				// href={`https://hashnode.com/@${username}`}
-				href={`${typeof window !=="undefined" && window?.location?.origin}/about-us`}
+				href={`https://paidre.com/about-us`}
 				className={
 					size
 						? `w-${size} h-${size} block overflow-hidden rounded-full`
@@ -30,8 +30,10 @@ export const Avatar = ({ username, name, picture, size }: Props) => {
 			</a>
 			<div className="text-base font-bold text-slate-600 dark:text-neutral-300">
 				<a 
-				href={`${typeof window !=="undefined" && window?.location?.origin}/about-us`}
-				// href={`https://hashnode.com/@${username}`} 
+				              href={`https://paidre.com/about-us`}
+
+
+							  // href={`https://hashnode.com/@${username}`} 
 				target="_blank" rel="noopener noreferrer">
 					{name}
 				</a>
