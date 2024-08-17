@@ -51,7 +51,7 @@ export const Footer = () => {
             <div className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`${window?.location?.origin}/`)}>
               Individual debtors
             </div>
-            <div className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`${window?.location?.origin}/`)}>
+            <div className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`${window?.location?.origin}/for-business-creditors`)}>
               Business creditors
             </div>
             <div className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`${window?.location?.origin}/`)}>
