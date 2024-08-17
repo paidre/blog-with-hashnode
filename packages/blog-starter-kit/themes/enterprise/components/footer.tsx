@@ -49,13 +49,13 @@ export const Footer = () => {
               Business debtors
             </div>
             <div className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`${window?.location?.origin}/`)}>
-              Individual debtors
+              Personal debtors
             </div>
             <div className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`${window?.location?.origin}/for-business-creditors`)}>
               Business creditors
             </div>
-            <div className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`${window?.location?.origin}/`)}>
-              Individual creditors
+            <div className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`${window?.location?.origin}/for-personal-creditors`)}>
+              Personal creditors
             </div>
           </div>
           <div className="mb-[16px] grid auto-rows-min gap-4">
