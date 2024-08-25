@@ -1,5 +1,5 @@
 ---
-title: "What can I do when my client (customer) refuses to pay?"
+title: "What can I do when my client refuses to pay?"
 seoTitle: "What can I do when my client (customer) refuses to pay?"
 seoDescription: "6 sensible things to do when someone refuses to pay..."
 datePublished: Sat Aug 10 2024 07:37:51 GMT+0000 (Coordinated Universal Time)
