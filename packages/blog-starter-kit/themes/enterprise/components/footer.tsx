@@ -66,6 +66,9 @@ export const Footer = () => {
             <div className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`${window?.location?.origin}/contact-us`)}>
               Contact us
             </div>
+            <div className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`${window?.location?.origin}/pricing`)}>
+              Pricing
+            </div>
             <div className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`${window?.location?.origin}/blog`)}>
               Blog
             </div>
